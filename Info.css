@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+
+
+.infoome{
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    margin-left: 70px;
+    font-size: 20px;
+    float: left;
+}
+
+.meinfo{
+    margin-right: 80px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: darkgrey;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-top: 30px;
+    margin-bottom: auto;
+    margin-left: 50px;
+    height: auto;
+    position: relative;
+
+}
+
+.meinfo:hover{
+    cursor: pointer;
+    opacity: .95;
+
+}
+
+@media screen and (max-width: 1366px){
+
+    .meinfo{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+}
+
